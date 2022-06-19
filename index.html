@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Mehmet Ali Karakaş">
+    <meta name="description" content="Mehmet Ali Karakaş">
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--Global Css-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet Css-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!--Mobile Css-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+    <title>Mehmet Ali Karakaş | MIS </title>
+
+</head>
+<body>
+    <header class="bg-green">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Mehmet Ali Karakaş</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="https://github.com/mehmetali9" target="_blank">Github</a></li>
+                    <li><a href="#about-me">Hakkımda</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        
+        <img height="300" width="300" src="images/mehmetalikarakas.jpg" alt="mehmetalikarakas">
+        <div class="name text-center">
+            <h2 class="heading-big">Mehmet Ali Karakaş</h2>
+            <p>Web Developer MIS </p>
+        </div>
+        <a href="https://github.com/mehmetali9" class="btn btn-primary" target="_blank">Github'a git</a>
+        <a href="downloads/cv1.pdf" class="btn btn-primary" target="_blank">Cv Görüntüle</a>
+    </section>
+
+    <section id="about-me" class="bg-green">
+        <h3 class="text-center heading-medium">Hakkımda</h3>
+        <div class="items">
+
+            <article class="item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Ben Kimim?</h3>
+                <p>8 Ekim 1998 yılında Adana'da doğdum. İlkokul ve Lise eğitimlerimi Adana'da tamamladım. 2022 yılında Osmaniye Korkut Ata Üniversitesi Yönetim Bilişim Sistemleri bölümünü başarıyla bitirdim.
+                    Kariyerime yazılım sektöründe Web developer olarak devam etmek istiyorum. </p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-file-code"></i>
+                <h3>Sertifikalar</h3>
+                <p> <strong>HTML5 İLE WEB GELİŞTİRME</strong>  <br> BTK AKADEMİ <br>
+                <strong>CSS TEMELLERİ</strong> <br> BTK AKADEMİ </p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-code"></i>
+                <h3>İlgi Alanlarım</h3>
+                <p>Frontend Tarafında HTML5, CSS, Bootstrap, JavaScript ilgim ve çalışmalarım devam etmektedir. <br>
+                Ek olarak Java , Python dillerinde çalışmalarım bulunmaktadır. <br>
+                Çalışmalarım için Github profilimi ziyaret edebilirsiniz</p>
+            </article>
+
+
+        </div>
+
+    </section>
+       
+
+    <footer id="contact" class="bg-light-green">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mbjwejag" method="POST">
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input 
+                    type="text"
+                    name="name" 
+                    class="form-control" 
+                    id="name" 
+                    placeholder="İsim">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input 
+                    type="text"
+                    name="email" 
+                    class="form-control" 
+                    id="email" 
+                    placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    class="form-control" 
+                    rows="5"
+                    placeholder="Mesajınız..."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block" value="Gönder">Gönder</button>
+
+            </form>
+
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/mehmet-ali-karakas/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/malikarakas9" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/malikarakas1/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>
